@@ -1,0 +1,796 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" href="assets/image/snkr-plts.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="overflow-hidden">
+    <div id="load"
+        class="bg-white min-vh-100 w-100 position-fixed top-0 d-flex align-items-center justify-content-center z-3">
+        <img src="./assets/image/SnkrLogo.png" alt="">
+
+    </div>
+    <section>
+        <div class="container">
+            <div class="d-flex justify-content-between pt-3 pb-2">
+                <img class="" src="assets/image/logo.png" alt="">
+                <img class="d-lg-block d-none" src="assets/image/op-zoek.png" alt="">
+            </div>
+        </div>
+        <nav class="container-fluid nav_box">
+            <div class="d-flex justify-content-end align-items-center">
+                <div class=" container gap-3 d-flex align-items-center  justify-content-end pt-4 pb-4" id="texthvr">
+                    <ul class="d-flex gap-3 ps-0 mb-0 md_screen" id="navbar">
+                        <li><a onclick="opennav()" href="" class="  text_black  ff_Roboto fw_400  fs_md  mb-0">HOME</a>
+                        </li>
+                        <li><a href="" class="  text_black ff_Roboto fw_400 fs_md mb-0">SNEAKERS KOPEN
+                            </a></li>
+                        <li><a href="" class="  text_black ff_Roboto fw_400 fs_md mb-0">INTERVIEWS</a></li>
+                        <li><a href="" class="  text_black ff_Roboto fw_400 fs_md mb-0">SALE
+                            </a></li>
+                        <li><a href="" class="  text_black ff_Roboto fw_400 fs_md mb-0">SNEAKER VAN DE DAG</a></li>
+                        <li><a href="" class="  text_black ff_Roboto fw_400 fs_md mb-0">SNEAKER FORUM
+                            </a></li>
+                        <li><a href="" class="  text_black ff_Roboto fw_400 fs_md mb-0">BLOG </a></li>
+                    </ul>
+                </div>
+            </div>
+            <label for="checkbox" id="menu" onclick="opennav()" class="d-lg-none z-1">
+                <span id="line"></span>
+                <span id="line-1"></span>
+                <span id="line-2"></span>
+            </label>
+        </nav>
+
+    </section>
+    <section class=" pt-88 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-6 ps0">
+                    <div class="box bg_white d-flex justify-content-center  align-items-center ">
+                        <img src="assets/image/shous.png" alt="" class="curser_pointer w-100">
+                    </div>
+                    <div class=" gap-4 pt-4 curser_pointer d-flex">
+                        <div>
+                            <img class="w-100" src="assets/image/black-shoes.png" alt="">
+                        </div>
+                        <div>
+                            <img class="w-100" src="assets/image/red-shoes.png" alt="">
+                        </div>
+                        <div>
+                            <img class="w-100" src="assets/image/gray-shoes.png" alt="">
+                        </div>
+                        <div>
+                            <img class="w-100" src="assets/image/red-black.png" alt="">
+                        </div>
+                        <!-- <img class="" src="assets/image/red-shoes.png" alt="">
+                        <img class="" src="assets/image/gray-shoes.png" alt="">
+                        <img class="" src="assets/image/red-black.png" alt=""> -->
+                    </div>
+                </div>
+                <div class=" col-12 col-lg-6 ps-lg-5">
+                    <h2 class="fs_xxl fw_600 pt-2 ff_popins whiteNowrap">PREMIUM MENS SPORTS LATHER KEDS</h2>
+                    <div class="d-flex">
+                        <img src="assets/image/svg/star-svg.svg" alt="">
+                        <p class="mb-0 fs_lg ff_popins fw_400
+                        ">( 5 Customer Review )</p>
+                    </div>
+                    <div>
+                        <p class="fw_400 text_color fs_lg ff_popins"> Sed nec ultricies felis, vitae facilisis ipsum.
+                            Morbi id turpis
+                            euismod,
+                            rhoncus
+                            tortor quis,
+                            lobortis sapien. Sed imperdiet nulla in leo ullamcorper, in finibus elit porta. Sed eget
+                            congue
+                            neque, mattis finibus neque. In vel dolor ac augue pretium</p>
+                    </div>
+                    <div>
+                        <div class="d-flex align-items-center flex-wrap">
+                            <h3 class="fs_lg fw_400 ff_popins mb-0 pe-4">Qty: </h3>
+                            <div
+                                class="qty-card d-flex justify-content-center align-items-center justify-content-between px-3 me-3">
+                                <p class="mb-0 fs_lg fw_400 ff_popins">-</p>
+                                <p class="mb-0 fs_lg fw_400 ff_popins">1</p>
+                                <p class="mb-0 fs_lg fw_400 ff_popins">+</p>
+                            </div>
+                            <button
+                                class="mt-4 mt-sm-0 ms-5 ms-lg-4 bg_green btn-padding fs_lg fw_400 ff_popins text_white">Add
+                                to
+                                Cart</button>
+                        </div>
+
+                        <div class="d-flex align-items-center pt-3">
+                            <h3 class="fs_lg fw_400 ff_popins mb-0 pe-4">Size: </h3>
+                            <div class="borderright">
+                                <select name="Size" class="w-100 sizecheck" id="size">
+                                    <option value="1">S</option>
+                                    <option value="2">M</option>
+                                    <option value="3">L</option>
+                                </select>
+                            </div>
+                            <!-- <div class="size-card d-flex align-items-center justify-content-between px-4">
+                                <p class="mb-0 fs_lg fw_400 ff_popins">S</p>
+                                <img src="assets/image/svg/dashicons_arrow.svg" alt="">
+
+                            </div> -->
+                        </div>
+                        <div class="d-flex align-items-center pt-4">
+                            <h3 class="fs_lg fw_400 ff_popins">Color: </h3>
+                            <div class="ps-3">
+                                <img src="assets/image/box_red.png" alt="">
+                                <img src="assets/image/box_greay.png" alt="">
+                                <img src="assets/image/box_black.png" alt="">
+                                <img src="assets/image/lite_grea.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="d-flex pt-4">
+                        <div class="d-flex">
+                            <img src="assets/image/svg/bx_bx-git-compare.svg" alt="">
+                            <p class="mb-0  fs_sm black fw_400 ff_popins">Compare</p>
+                        </div>
+                        <div class="d-flex ps-4 ">
+                            <img src="assets/image/svg/ei_heart.svg" alt="">
+                            <p class="mb-0 fs_sm black fw_400 ff_popins">Wishlist</p>
+                        </div>
+                    </div>
+                    <div class="position-relative line pt-4"></div>
+                    <div class="d-flex gap-4 pt-3 ">
+                        <img class="curser_pointer" src="assets/image/svg/ci_share.svg" alt="">
+                        <img class="curser_pointer" src="assets/image/svg/logos_facebook.svg" alt="">
+                        <img class="curser_pointer" src="assets/image/svg/logos_twitter.svg" alt="">
+                        <img class="curser_pointer" src="assets/image/svg/logos_pinterest.svg" alt="">
+                        <img class="curser_pointer" src="assets/image/svg/flat-color-icons_google.svg" alt="">
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    <section class="pt-5 pb-0 pb-lg-5">
+        <div class="container d-flex gap-2 pb-5 flex-column">
+            <div class="">
+                <p class="ff_popins fw_500 fs_xl">You can buy the Nike Air Max 97 Men's Shoe - White here:</p>
+            </div>
+
+            <div class="row">
+                <div class="col-12 col-md-6  col-lg-3">
+                    <div
+                        class="card1 bg_white d-flex align-items-center justify-content-center px-5 curser_pointer py-4">
+                        <img src="assets/image/foot-locker-nl.png" alt="" class="w-100">
+                    </div>
+                    <div class="box1 curser_pointer bg_white px-3  my-4 my-sm-4 pt-4 pb-4">
+                        <div class="  d-flex justify-content-between align-items-center">
+                            <div class="d-flex">
+                                <p class="mb-0 ff_popins fs_sm fw_400 text_color3">Price:</p>
+                                <p class="mb-0 fs_lg ff_popins fw_600 ps-2">€179,99</p>
+                            </div>
+                            <button class="border_radish bg_green text_white fw_400 fs_xsm">Best Price</button>
+                        </div>
+                        <p class="ff_popins fs_sm fw_400 text_color3">Size:</p>
+                        <div class=" d-flex gap-1 py-2 justify-content-between">
+                            <div class="box2 d-flex align-items-center justify-content-center">
+                                <p class=" mb-0 text_black18 fw_500 ff_popins fs_sm">41</p>
+                            </div>
+                            <div class="box2 d-flex align-items-center justify-content-center">
+                                <p class=" mb-0 text_black18 fw_500 ff_popins fs_sm">42</p>
+                            </div>
+                            <div class="box2 d-flex align-items-center justify-content-center">
+                                <p class=" mb-0 text_black18 fw_500 ff_popins fs_sm">43</p>
+                            </div>
+                        </div>
+                        <div class="d-flex gap-1 pb-3  justify-content-between">
+                            <div class="box2 d-flex align-items-center justify-content-center">
+                                <p class=" mb-0 text_black18 fw_500 ff_popins fs_sm">44</p>
+                            </div>
+                            <div class="box2 d-flex align-items-center justify-content-center">
+                                <p class=" mb-0 text_black18 fw_500 ff_popins fs_sm">45</p>
+                            </div>
+                            <div class="box2 d-flex align-items-center justify-content-center">
+                                <p class=" mb-0 text_black18 fw_500 ff_popins fs_sm">46</p>
+                            </div>
+                        </div>
+                        <p class="brown ff_popins">View this product as:</p>
+                        <h4 class="sky_blue ff_popins    fs_sm fw_600">Foot Locker NL</h4>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6  col-lg-3 ">
+                    <div class="card1 d-flex justify-content-center px-5 curser_pointer  py-4">
+                        <img src="assets/image/sidestep-nl.png" alt="" class="w-100">
+                    </div>
+                    <div class="box1 bg_white px-3 my-4 my-sm-4 curser_pointer pt-4 pb-4">
+                        <div class="  d-flex justify-content-between align-items-center">
+                            <div class="d-flex">
+                                <p class="mb-0 ff_popins fs_sm fw_400 text_color3">Price:</p>
+                                <p class="mb-0 fs_lg ff_popins fw_600 ps-2">€179,99</p>
+                            </div>
+                            <button class="border_radish bg_green text_white fw_400 fs_xsm">Best Price</button>
+                        </div>
+                        <p class="ff_popins fs_sm fw_400 text_color3">Size:</p>
+                        <div class=" d-flex gap-1 py-2  justify-content-between">
+                            <div class="box2 d-flex align-items-center justify-content-center">
+                                <p class=" mb-0 text_black18 fw_500 ff_popins fs_sm">41</p>
+                            </div>
+                            <div class="box2 d-flex align-items-center justify-content-center">
+                                <p class=" mb-0 text_black18 fw_500 ff_popins fs_sm">42</p>
+                            </div>
+                            <div class="box2 d-flex align-items-center justify-content-center">
+                                <p class=" mb-0 text_black18 fw_500 ff_popins fs_sm">43</p>
+                            </div>
+                        </div>
+                        <div class="d-flex gap-1 pb-3  justify-content-between">
+                            <div class="box2 d-flex align-items-center justify-content-center">
+                                <p class=" mb-0 text_black18 fw_500 ff_popins fs_sm">44</p>
+                            </div>
+                            <div class="box2 d-flex align-items-center justify-content-center">
+                                <p class=" mb-0 text_black18 fw_500 ff_popins fs_sm">45</p>
+                            </div>
+                            <div class="box2 d-flex align-items-center justify-content-center">
+                                <p class=" mb-0 text_black18 fw_500 ff_popins fs_sm">46</p>
+                            </div>
+                        </div>
+                        <p class="brown ff_popins">View this product as:</p>
+                        <h4 class="sky_blue ff_popins    fs_sm fw_600">Foot Locker NL</h4>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6  col-lg-3">
+                    <div
+                        class="card1 bg_white d-flex align-items-center justify-content-center curser_pointer  px-5 py-4">
+                        <img src="assets/image/foot-locker-nl.png" alt="" class="w-100">
+                    </div>
+                    <div class="box1 bg_white my-4 my-sm-4 px-3 pt-4 curser_pointer pb-4">
+                        <div class="  d-flex justify-content-between align-items-center">
+                            <div class="d-flex">
+                                <p class="mb-0 ff_popins fs_sm fw_400 text_color3">Price:</p>
+                                <p class="mb-0 fs_lg ff_popins fw_600 ps-2">€179,99</p>
+                            </div>
+                            <button class="border_radish bg_green text_white fw_400 fs_xsm">Best Price</button>
+                        </div>
+                        <p class="ff_popins fs_sm fw_400 text_color3">Size:</p>
+                        <div class=" d-flex gap-1 py-2  justify-content-between">
+                            <div class="box2 d-flex align-items-center justify-content-center">
+                                <p class=" mb-0 text_black18 fw_500 ff_popins fs_sm">41</p>
+                            </div>
+                            <div class="box2 d-flex align-items-center justify-content-center">
+                                <p class=" mb-0 text_black18 fw_500 ff_popins fs_sm">42</p>
+                            </div>
+                            <div class="box2 d-flex align-items-center justify-content-center">
+                                <p class=" mb-0 text_black18 fw_500 ff_popins fs_sm">43</p>
+                            </div>
+                        </div>
+                        <div class="d-flex gap-1 pb-3  justify-content-between">
+                            <div class="box2 d-flex align-items-center justify-content-center">
+                                <p class=" mb-0 text_black18 fw_500 ff_popins fs_sm">44</p>
+                            </div>
+                            <div class="box2 d-flex align-items-center justify-content-center">
+                                <p class=" mb-0 text_black18 fw_500 ff_popins fs_sm">45</p>
+                            </div>
+                            <div class="box2 d-flex align-items-center justify-content-center">
+                                <p class=" mb-0 text_black18 fw_500 ff_popins fs_sm">46</p>
+                            </div>
+                        </div>
+                        <p class="brown ff_popins">View this product as:</p>
+                        <h4 class="sky_blue ff_popins    fs_sm fw_600">Foot Locker NL</h4>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6  col-lg-3">
+                    <div
+                        class="card1 bg_white d-flex align-items-center justify-content-center curser_pointer px-5 py-4">
+                        <img src="assets/image/sidestep-nl.png" alt="" class="w-100">
+                    </div>
+                    <div class="box1 bg_white px-3  my-4 my-sm-4 curser_pointer pt-4 pb-4">
+                        <div class="  d-flex justify-content-between align-items-center">
+                            <div class="d-flex">
+                                <p class="mb-0 ff_popins fs_sm fw_400 text_color3">Price:</p>
+                                <p class="mb-0 fs_lg ff_popins fw_600 ps-2">€179,99</p>
+                            </div>
+                            <button class="border_radish bg_green text_white fw_400 fs_xsm">Best Price</button>
+                        </div>
+                        <p class="ff_popins fs_sm fw_400 text_color3">Size:</p>
+                        <div class=" d-flex gap-1 py-2  justify-content-between">
+                            <div class="box2 d-flex align-items-center justify-content-center">
+                                <p class=" mb-0 text_black18 fw_500 ff_popins fs_sm">41</p>
+                            </div>
+                            <div class="box2 d-flex align-items-center justify-content-center">
+                                <p class=" mb-0 text_black18 fw_500 ff_popins fs_sm">42</p>
+                            </div>
+                            <div class="box2 d-flex align-items-center justify-content-center">
+                                <p class=" mb-0 text_black18 fw_500 ff_popins fs_sm">43</p>
+                            </div>
+                        </div>
+                        <div class="d-flex gap-1 pb-3  justify-content-between">
+                            <div class="box2 d-flex align-items-center justify-content-center">
+                                <p class=" mb-0 text_black18 fw_500 ff_popins fs_sm">44</p>
+                            </div>
+                            <div class="box2 d-flex align-items-center justify-content-center">
+                                <p class=" mb-0 text_black18 fw_500 ff_popins fs_sm">45</p>
+                            </div>
+                            <div class="box2 d-flex align-items-center justify-content-center">
+                                <p class=" mb-0 text_black18 fw_500 ff_popins fs_sm">46</p>
+                            </div>
+                        </div>
+                        <p class="brown ff_popins">View this product as:</p>
+                        <h4 class="sky_blue ff_popins    fs_sm fw_600">Foot Locker NL</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="pt-0 pt-lg-4 pb-5">
+        <div class="container ">
+            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link fw_400 ff_popins fs_lg text_black position-relative " id="pills-home-tab"
+                        data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab"
+                        aria-controls="pills-home" aria-selected="true">Discription</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link fw_400 ff_popins fs_lg text_black position-relative" id="pills-profile-tab"
+                        data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab"
+                        aria-controls="pills-profile" aria-selected="false">Additional Information</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link fw_400 ff_popins fs_lg text_black position-relative " id="pills-contact-tab"
+                        data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab"
+                        aria-controls="pills-contact" aria-selected="false">Reviews</button>
+                </li>
+
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"
+                    tabindex="0">
+                    <p class="greay fw_400 fs_lg ff_popins pt"> Sed imperdiet nulla in leo ullamcorper, in
+                        finibus elit porta. Sed eget congue neque,
+                        mattis
+                        finibus neque. In vel dolor ac augue pretium suscipit. Ut nec massa in ligula vestibulum
+                        mattis.
+                        Suspendisse imperdiet lorem eleifend nisi euismod, vel consequat ipsum luctus. Morbi auctor
+                        vulputate
+                        hendrerit. Etiam vel lectus tortor. Pellentesque non pharetra mi. Cura</p>
+                </div>
+                <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"
+                    tabindex="0">
+                    <p class="greay fw_400 fs_lg ff_popins pt"> Sed imperdiet nulla in leo ullamcorper, in
+                        finibus elit porta. Sed eget congue neque,
+                        mattis
+                        finibus neque. In vel dolor ac augue pretium suscipit. Ut nec massa in ligula vestibulum mattis.
+                        Suspendisse imperdiet lorem eleifend nisi euismod, vel consequat ipsum luctus. Morbi auctor
+                        vulputate
+                        hendrerit. Etiam vel lectus tortor. Pellentesque non pharetra mi. Cura</p>
+                </div>
+                <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab"
+                    tabindex="0">
+                    <p class="greay fw_400 fs_lg ff_popins pt"> In vel dolor ac augue pretium suscipit. Ut
+                        nec massa in ligula vestibulum mattis.
+                        Suspendisse imperdiet lorem eleifend nisi euismod, vel consequat ipsum luctus. Morbi auctor
+                        vulputate
+                        hendrerit. Etiam vel lectus tortor. Pellentesque non pharetra mi. Cura Sed nec ultricies felis,
+                        vitae facilisis ipsum. Morbi id turpis
+                        euismod, rhoncus
+                        tortor
+                        quis,
+                        lobortis
+                        sapien. Sed imperdiet nulla in leo ullamcorper, in finibus elit porta. Sed eget congue neque,
+                        mattis
+                        finibus neque.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="pt-0 pt-lg-5 pb-5">
+        <div class="container">
+            <div class="row slick_slider">
+                <div class="col-3  ">
+                    <div class="card3 mx_12 pb-2 bg_white">
+                        <div class="position-relative">
+                            <img src="assets/image/red-shoes1.png" alt="" class="w-100 ">
+                            <img src="assets/image/offer-img.png" alt="" class="postion-ab">
+                            <img src="assets/image/new.png" alt="" class="postion-ab1">
+
+                        </div>
+                        <div class="ps-2 pe-2 pt-3 pb-3">
+                            <div class="d-flex justify-content-between">
+                                <p class="fw_500 fs_fs_md ff_popins">Quickiins Mens Shoes</p>
+                                <img src="assets/image/el_shopping.svg" alt="">
+                            </div>
+                            <div class="d-flex">
+                                <p class="fw_500 fs_fs_md ff_popins text_color">$90.00</p>
+                                <p class="fw_500 fs_fs_md ff_popins text_red ps-1">$70.00</p>
+                            </div>
+                            <img src="assets/image/black-star.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3  ">
+                    <div class="card3 mx_12 pb-2 bg_white">
+                        <div class="position-relative">
+                            <img src="assets/image/greay-shoes.png" alt="" class="w-100 ">
+                            <img src="assets/image/offer-img.png" alt="" class="postion-ab">
+                            <img src="assets/image/new.png" alt="" class="postion-ab1">
+
+                        </div>
+                        <div class="ps-2 pe-2 pt-3 pb-3">
+                            <div class="d-flex justify-content-between">
+                                <p class="fw_500 fs_fs_md ff_popins">Quickiins Mens Shoes</p>
+                                <img src="assets/image/el_shopping.svg" alt="">
+                            </div>
+                            <div class="d-flex">
+                                <p class="fw_500 fs_fs_md ff_popins text_color">$90.00</p>
+                                <p class="fw_500 fs_fs_md ff_popins text_red ps-1">$70.00</p>
+                            </div>
+                            <img src="assets/image/black-star.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3  ">
+                    <div class="card3 mx_12 pb-2 bg_white">
+                        <div class="position-relative">
+                            <img src="assets/image/red-shoes1.png" alt="" class="w-100 ">
+                            <img src="assets/image/offer-img.png" alt="" class="postion-ab">
+                            <img src="assets/image/new.png" alt="" class="postion-ab1">
+
+                        </div>
+                        <div class="ps-2 pe-2 pt-3 pb-3">
+                            <div class="d-flex justify-content-between">
+                                <p class="fw_500 fs_fs_md ff_popins">Quickiins Mens Shoes</p>
+                                <img src="assets/image/el_shopping.svg" alt="">
+                            </div>
+                            <div class="d-flex">
+                                <p class="fw_500 fs_fs_md ff_popins text_color">$90.00</p>
+                                <p class="fw_500 fs_fs_md ff_popins text_red ps-1">$70.00</p>
+                            </div>
+                            <img src="assets/image/black-star.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3  ">
+                    <div class="card3 mx_12 pb-2 bg_white">
+                        <div class="position-relative">
+                            <img src="assets/image/greay-shoes.png" alt="" class="w-100 ">
+                            <img src="assets/image/offer-img.png" alt="" class="postion-ab">
+                            <img src="assets/image/new.png" alt="" class="postion-ab1">
+
+                        </div>
+                        <div class="ps-2 pe-2 pt-3 pb-3">
+                            <div class="d-flex justify-content-between">
+                                <p class="fw_500 fs_fs_md ff_popins">Quickiins Mens Shoes</p>
+                                <img src="assets/image/el_shopping.svg" alt="">
+                            </div>
+                            <div class="d-flex">
+                                <p class="fw_500 fs_fs_md ff_popins text_color">$90.00</p>
+                                <p class="fw_500 fs_fs_md ff_popins text_red ps-1">$70.00</p>
+                            </div>
+                            <img src="assets/image/black-star.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3  ">
+                    <div class="card3 curser_pointer mx_12 pb-2 bg_white">
+                        <div class="position-relative">
+                            <img src="assets/image/red-shoes1.png" alt="" class="w-100 ">
+                            <img src="assets/image/offer-img.png" alt="" class="postion-ab">
+                            <img src="assets/image/new.png" alt="" class="postion-ab1">
+
+                        </div>
+                        <div class="ps-2 pe-2 pt-3 pb-3">
+                            <div class="d-flex justify-content-between">
+                                <p class="fw_500 fs_fs_md ff_popins">Quickiins Mens Shoes</p>
+                                <img src="assets/image/el_shopping.svg" alt="">
+                            </div>
+                            <div class="d-flex">
+                                <p class="fw_500 fs_fs_md ff_popins text_color">$90.00</p>
+                                <p class="fw_500 fs_fs_md ff_popins text_red ps-1">$70.00</p>
+                            </div>
+                            <img src="assets/image/black-star.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row slick_slider d-none d-lg-block pt-4">
+                <div class="col-3  ">
+                    <div class="card3 mx_12 pb-2 bg_white">
+                        <div class="position-relative">
+                            <img src="assets/image/red-shoes1.png" alt="" class="w-100 ">
+                            <img src="assets/image/offer-img.png" alt="" class="postion-ab">
+                            <img src="assets/image/new.png" alt="" class="postion-ab1">
+
+                        </div>
+                        <div class="ps-2 pe-2 pt-3 pb-3">
+                            <div class="d-flex justify-content-between">
+                                <p class="fw_500 fs_fs_md ff_popins">Quickiins Mens Shoes</p>
+                                <img src="assets/image/el_shopping.svg" alt="">
+                            </div>
+                            <div class="d-flex">
+                                <p class="fw_500 fs_fs_md ff_popins text_color">$90.00</p>
+                                <p class="fw_500 fs_fs_md ff_popins text_red ps-1">$70.00</p>
+                            </div>
+                            <img src="assets/image/black-star.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3  ">
+                    <div class="card3 mx_12 pb-2 bg_white">
+                        <div class="position-relative">
+                            <img src="assets/image/greay-shoes.png" alt="" class="w-100 ">
+                            <img src="assets/image/offer-img.png" alt="" class="postion-ab">
+                            <img src="assets/image/new.png" alt="" class="postion-ab1">
+
+                        </div>
+                        <div class="ps-2 pe-2 pt-3 pb-3">
+                            <div class="d-flex justify-content-between">
+                                <p class="fw_500 fs_fs_md ff_popins">Quickiins Mens Shoes</p>
+                                <img src="assets/image/el_shopping.svg" alt="">
+                            </div>
+                            <div class="d-flex">
+                                <p class="fw_500 fs_fs_md ff_popins text_color">$90.00</p>
+                                <p class="fw_500 fs_fs_md ff_popins text_red ps-1">$70.00</p>
+                            </div>
+                            <img src="assets/image/black-star.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3  ">
+                    <div class="card3 mx_12 pb-2 bg_white">
+                        <div class="position-relative">
+                            <img src="assets/image/red-shoes1.png" alt="" class="w-100 ">
+                            <img src="assets/image/offer-img.png" alt="" class="postion-ab">
+                            <img src="assets/image/new.png" alt="" class="postion-ab1">
+
+                        </div>
+                        <div class="ps-2 pe-2 pt-3 pb-3">
+                            <div class="d-flex justify-content-between">
+                                <p class="fw_500 fs_fs_md ff_popins">Quickiins Mens Shoes</p>
+                                <img src="assets/image/el_shopping.svg" alt="">
+                            </div>
+                            <div class="d-flex">
+                                <p class="fw_500 fs_fs_md ff_popins text_color">$90.00</p>
+                                <p class="fw_500 fs_fs_md ff_popins text_red ps-1">$70.00</p>
+                            </div>
+                            <img src="assets/image/black-star.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3  ">
+                    <div class="card3 mx_12 pb-2 bg_white">
+                        <div class="position-relative">
+                            <img src="assets/image/greay-shoes.png" alt="" class="w-100 ">
+                            <img src="assets/image/offer-img.png" alt="" class="postion-ab">
+                            <img src="assets/image/new.png" alt="" class="postion-ab1">
+
+                        </div>
+                        <div class="ps-2 pe-2 pt-3 pb-3">
+                            <div class="d-flex justify-content-between">
+                                <p class="fw_500 fs_fs_md ff_popins">Quickiins Mens Shoes</p>
+                                <img src="assets/image/el_shopping.svg" alt="">
+                            </div>
+                            <div class="d-flex">
+                                <p class="fw_500 fs_fs_md ff_popins text_color">$90.00</p>
+                                <p class="fw_500 fs_fs_md ff_popins text_red ps-1">$70.00</p>
+                            </div>
+                            <img src="assets/image/black-star.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3  ">
+                    <div class="card3 curser_pointer mx_12 pb-2 bg_white">
+                        <div class="position-relative">
+                            <img src="assets/image/red-shoes1.png" alt="" class="w-100 ">
+                            <img src="assets/image/offer-img.png" alt="" class="postion-ab">
+                            <img src="assets/image/new.png" alt="" class="postion-ab1">
+
+                        </div>
+                        <div class="ps-2 pe-2 pt-3 pb-3">
+                            <div class="d-flex justify-content-between">
+                                <p class="fw_500 fs_fs_md ff_popins">Quickiins Mens Shoes</p>
+                                <img src="assets/image/el_shopping.svg" alt="">
+                            </div>
+                            <div class="d-flex">
+                                <p class="fw_500 fs_fs_md ff_popins text_color">$90.00</p>
+                                <p class="fw_500 fs_fs_md ff_popins text_red ps-1">$70.00</p>
+                            </div>
+                            <img src="assets/image/black-star.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-flex align-items-center gap-1 gap-sm-3 justify-content-end mt-3" id="greay">
+                <div class="box_1 text_white ">
+                    <p class="fs_xl greay fw_600 ff_popins mb-0 d-inline-block arro-btn-two">1</p>
+                </div>
+                <div class="box_1 text_white">
+                    <p class="fs_xl greay fw_600 ff_popins mb-0 arro-btn-two">2</p>
+                </div>
+                <div class="box_1 text_white">
+                    <p class="fs_xl greay fw_600 ff_popins mb-0 arro-btn-two">3</p>
+                </div>
+                <div class="box_1">
+                    <p class="fs_xl greay ff_popins fw_600 mb-0">Next>></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="mt_top foter_color">
+        <div class="container pt-4">
+            <a href=""><img src="./assets/image/snkr-plts.png" alt="#"></a>
+            <div class="row">
+                <div class="col-12 col-xl-4 pe-5">
+                    <p class=" fw_400 fs_sm ff_poppin color1 opcity">Sed nec ultricies felis, vitae
+                        facilisis
+                        ipsum. Morbi id turpis euismod, rhoncus tortor quis, lobortis sapien. Sed imperdiet nulla
+                        in leo
+                        ullamcorper, in finibus elit porta. </p>
+                    <div class="pt-4 gap-3 d-flex">
+                        <a href="#"><img class="nav_image" src="./assets/image/svg/feacebook_icon.svg" alt="#"></a>
+                        <a href="#"><img class="nav_image" src="./assets/image/svg/tiwter_icon.svg" alt="#"></a>
+                        <a href="#"><img class="nav_image" src="./assets/image/svg/google.svg" alt="#"></a>
+                    </div>
+                </div>
+
+                <div class="col-12 col-xl-8  pt-4 pt-xl-0">
+                    <div class="row">
+                        <div class="col-6 col-md-3 pt-3 pt-md-0">
+                            <ul class="ms-0">
+                                <li class="text_white ff_poppin fs_md fw_600 curser_pointer">CUSTOM LINKS</li>
+                                <li class="pt-4"><a class="fs_md fw_400 ff_poppin color1 curser_pointer" href="">Lorem
+                                        ipsum</a></li>
+                                <li class="pt-4"><a class="fs_md fw_400 ff_poppin color1 curser_pointer" href="">Lorem
+                                        ipsum</a></li>
+                            </ul>
+
+                        </div>
+                        <div class="col-6 col-md-3 pt-3 pt-md-0">
+                            <ul class="ms-0">
+                                <li class="fs_md fw_600 ff_poppin text_white curser_pointer">PRODUCTS</li>
+                                <li class="pt-4"><a class="fs_md fw_400 ff_poppin color1 curser_pointer" href="">Lorem
+                                        ipsum</a></li>
+                                <li class="pt-4"><a class="fs_md fw_400 ff_poppin color1 curser_pointer" href="">Lorem
+                                        ipsum</a></li>
+                                <li class="pt-4"><a class="fs_md fw_400 ff_poppin color1 curser_pointer" href="">Lorem
+                                        ipsum</a></li>
+                            </ul>
+
+                        </div>
+                        <div class="col-6 col-md-3  pt-3 pt-md-0">
+                            <ul class="ms-0">
+                                <li class="fs_md fw_600 ff_poppin text_white curser_pointer">OUR COMPANY</li>
+                                <li class="pt-4"><a class="fs_md fw_400 ff_poppin color1" href="">Lorem
+                                        ipsum</a></li>
+                                <li class="pt-4"><a class="fs_md fw_400 ff_poppin color1" href="">Lorem
+                                        ipsum</a></li>
+                            </ul>
+
+                        </div>
+                        <div class="col-6 col-md-3 pt-3 pt-md-0">
+                            <ul class="ms-0">
+                                <li class=" ff_poppin fw_600 fs_md text_white curser_pointer">YOUR ACCOUNT</li>
+                                <li class="pt-4"><a class="fs_md fw_400 ff_poppin color1" href="">Lorem
+                                        ipsum</a></li>
+                                <li class="pt-4"><a class="fs_md fw_400 ff_poppin color1" href="">Lorem
+                                        ipsum</a></li>
+                            </ul>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class=" bg_footer ">
+            <h2 class="d-flex text-center color1 ff-poppin fs_md fw_600 align-items-center justify-content-center
+                p-3">
+                Â© Copyright SNKRPLTS 2021.
+            </h2>
+
+        </div>
+    </section>
+    <script>
+        setTimeout(() => {
+            document.getElementById("load").classList.add("d-none")
+            document.body.classList.remove("overflow-hidden");
+        }, 2000);
+    </script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+        integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+        integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+        crossorigin="anonymous" refer2rerpolicy="no-referrer">
+    </script>
+    <script>
+        function opennav() {
+            document.getElementById("navbar").classList.toggle("start-0")
+            document.body.classList.toggle("overflow-hidden")
+            document.getElementById("line").classList.toggle("rotates1")
+            document.getElementById("line-1").classList.toggle("rotates2")
+            document.getElementById("line-2").classList.toggle("rotates3")
+        }
+    </script>
+
+    <script>
+        $('.slick_slider').slick({
+            dots: false,
+            infinite: true,
+            speed: 1500,
+            slidesToShow: 4,
+            autoplay: 500,
+            slidesToScroll: 1,
+            autoplaySpeed: 0,
+            prevArrow: $('.arro-btn'),
+            nextArrow: $('.arro-btn-two'),
+            responsive: [{
+                    breakpoint: 1400,
+                    settings: {
+                        slidesToShow: 4,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        dots: false,
+                        // autoplay: true,
+                        // autoplaySpeed: 1500,
+                    }
+                },
+                {
+                    breakpoint: 992,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        dots: false,
+                        // autoplay: true,
+                        // autoplaySpeed: 1500,
+                    }
+                },
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2,
+                        // autoplay: true,
+                        // autoplaySpeed: 1500,
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        // autoplay: true,
+                        // autoplaySpeed: 1500,
+                    }
+                }
+                // You can unslick at a given breakpoint now by adding:
+                // settings: "unslick"
+                // instead of a settings object
+            ]
+        });
+    </script>
+
+
+</body>
+
+</html>
