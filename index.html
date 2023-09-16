@@ -103,9 +103,9 @@
                             <h3 class="fs_lg fw_400 ff_popins mb-0 pe-4">Qty: </h3>
                             <div
                                 class="qty-card d-flex justify-content-center align-items-center justify-content-between px-3 me-3">
-                                <p class="mb-0 fs_lg fw_400 ff_popins">-</p>
-                                <p class="mb-0 fs_lg fw_400 ff_popins">1</p>
-                                <p class="mb-0 fs_lg fw_400 ff_popins">+</p>
+                                <p class="mb-0 fs_lg fw_400 ff_popins curser_pointer" id="decre">-</p>
+                                <p class="mb-0 fs_lg fw_400 ff_popins curser_pointer" id="value">1</p>
+                                <p class="mb-0 fs_lg fw_400 ff_popins curser_pointer" id="incre">+</p>
                             </div>
                             <button
                                 class="mt-4 mt-sm-0 ms-5 ms-lg-4 bg_green btn-padding fs_lg fw_400 ff_popins text_white">Add
@@ -116,10 +116,10 @@
                         <div class="d-flex align-items-center pt-3">
                             <h3 class="fs_lg fw_400 ff_popins mb-0 pe-4">Size: </h3>
                             <div class="borderright">
-                                <select name="Size" class="w-100 sizecheck" id="size">
-                                    <option value="1">S</option>
-                                    <option value="2">M</option>
-                                    <option value="3">L</option>
+                                <select name="Size" class="w-100 mb-0 fs_lg fw_400 ff_popin  sizecheck" id="size">
+                                    <option value="1 mb-0 fs_lg fw_400 ff_popin">S</option>
+                                    <option value="2 mb-0 fs_lg fw_400 ff_popin">M</option>
+                                    <option value="3 mb-0 fs_lg fw_400 ff_popin">L</option>
                                 </select>
                             </div>
 
@@ -141,7 +141,7 @@
                             <p class="mb-0  fs_sm black fw_400 ff_popins">Compare</p>
                         </div>
                         <div class="d-flex ps-4 ">
-                            <img src="assets/image/svg/ei_heart.svg" alt="">
+                            <img src="assets/image/svg/ei_heart.svg" alt="" class="curser_pointer">
                             <p class="mb-0 fs_sm black fw_400 ff_popins">Wishlist</p>
                         </div>
                     </div>
@@ -159,7 +159,7 @@
             </div>
         </div>
     </section>
-    <section class="pt-5 pb-0 pb-lg-5">
+    <section class="pt-0 pt-lg-5 pb-0 pb-lg-5">
         <div class="container d-flex gap-2 pb-5 flex-column">
             <div class="">
                 <p class="ff_popins fw_500 fs_xl">You can buy the Nike Air Max 97 Men's Shoe - White here:</p>
@@ -339,9 +339,9 @@
                         aria-controls="pills-home" aria-selected="true">Discription</button>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link fw_400 ff_popins fs_lg text_black position-relative" id="pills-profile-tab"
-                        data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab"
-                        aria-controls="pills-profile" aria-selected="false">Additional Information</button>
+                    <button class="nav-link fw_400 ff_popins fs_lg text_black position-relative cli"
+                        id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button"
+                        role="tab" aria-controls="pills-profile" aria-selected="false">Additional Information</button>
                 </li>
                 <li class="nav-item" role="presentation">
                     <button class="nav-link fw_400 ff_popins fs_lg text_black position-relative " id="pills-contact-tab"
@@ -405,7 +405,7 @@
                         <div class="ps-2 pe-2 pt-3 pb-3">
                             <div class="d-flex justify-content-between">
                                 <p class="fw_500 fs_fs_md ff_popins">Quickiins Mens Shoes</p>
-                                     <img src="assets/image/svg/el_shopping.svg" alt="">
+                                <img src="assets/image/svg/el_shopping.svg" alt="">
                             </div>
                             <div class="d-flex">
                                 <p class="fw_500 fs_fs_md ff_popins text_color">$90.00</p>
@@ -426,114 +426,7 @@
                         <div class="ps-2 pe-2 pt-3 pb-3">
                             <div class="d-flex justify-content-between">
                                 <p class="fw_500 fs_fs_md ff_popins">Quickiins Mens Shoes</p>
-                                     <img src="assets/image/svg/el_shopping.svg" alt="">
-                            </div>
-                            <div class="d-flex">
-                                <p class="fw_500 fs_fs_md ff_popins text_color">$90.00</p>
-                                <p class="fw_500 fs_fs_md ff_popins text_red ps-1">$70.00</p>
-                            </div>
-                            <img src="assets/image/svg/black-star.svg" alt="">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-3  ">
-                    <div class="card3 mx_12 pb-2 bg_white">
-                        <div class="position-relative">
-                            <img src="assets/image/red-shoes1.png" alt="" class="w-100 ">
-                            <img src="assets/image/offer-img.png" alt="" class="postion-ab">
-                            <img src="assets/image/new.png" alt="" class="postion-ab1">
-
-                        </div>
-                        <div class="ps-2 pe-2 pt-3 pb-3">
-                            <div class="d-flex justify-content-between">
-                                <p class="fw_500 fs_fs_md ff_popins">Quickiins Mens Shoes</p>
-                                     <img src="assets/image/svg/el_shopping.svg" alt="">
-                            </div>
-                            <div class="d-flex">
-                                <p class="fw_500 fs_fs_md ff_popins text_color">$90.00</p>
-                                <p class="fw_500 fs_fs_md ff_popins text_red ps-1">$70.00</p>
-                            </div>
-                            <img src="assets/image/svg/black-star.svg" alt="">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-3  ">
-                    <div class="card3 mx_12 pb-2 bg_white">
-                        <div class="position-relative">
-                            <img src="assets/image/greay-shoes.png" alt="" class="w-100 ">
-                            <img src="assets/image/offer-img.png" alt="" class="postion-ab">
-                            <img src="assets/image/new.png" alt="" class="postion-ab1">
-
-                        </div>
-                        <div class="ps-2 pe-2 pt-3 pb-3">
-                            <div class="d-flex justify-content-between">
-                                <p class="fw_500 fs_fs_md ff_popins">Quickiins Mens Shoes</p>
-                                     <img src="assets/image/svg/el_shopping.svg" alt="">
-                            </div>
-                            <div class="d-flex">
-                                <p class="fw_500 fs_fs_md ff_popins text_color">$90.00</p>
-                                <p class="fw_500 fs_fs_md ff_popins text_red ps-1">$70.00</p>
-                            </div>
-                            <img src="assets/image/svg/black-star.svg" alt="">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-3  ">
-                    <div class="card3 curser_pointer mx_12 pb-2 bg_white">
-                        <div class="position-relative">
-                            <img src="assets/image/red-shoes1.png" alt="" class="w-100 ">
-                            <img src="assets/image/offer-img.png" alt="" class="postion-ab">
-                            <img src="assets/image/new.png" alt="" class="postion-ab1">
-
-                        </div>
-                        <div class="ps-2 pe-2 pt-3 pb-3">
-                            <div class="d-flex justify-content-between">
-                                <p class="fw_500 fs_fs_md ff_popins">Quickiins Mens Shoes</p>
-                                     <img src="assets/image/svg/el_shopping.svg" alt="">
-                            </div>
-                            <div class="d-flex">
-                                <p class="fw_500 fs_fs_md ff_popins text_color">$90.00</p>
-                                <p class="fw_500 fs_fs_md ff_popins text_red ps-1">$70.00</p>
-                            </div>
-                            <img src="assets/image/svg/black-star.svg" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row slick_slider d-none d-lg-block pt-4">
-                <div class="col-3  ">
-                    <div class="card3 mx_12 pb-2 bg_white">
-                        <div class="position-relative">
-                            <img src="assets/image/red-shoes1.png" alt="" class="w-100 ">
-                            <img src="assets/image/offer-img.png" alt="" class="postion-ab">
-                            <img src="assets/image/new.png" alt="" class="postion-ab1">
-
-                        </div>
-                        <div class="ps-2 pe-2 pt-3 pb-3">
-                            <div class="d-flex justify-content-between">
-                                <p class="fw_500 fs_fs_md ff_popins">Quickiins Mens Shoes</p>
-                                     <img src="assets/image/svg/el_shopping.svg" alt="">
-                            </div>
-                            <div class="d-flex">
-                                <p class="fw_500 fs_fs_md ff_popins text_color">$90.00</p>
-                                <p class="fw_500 fs_fs_md ff_popins text_red ps-1">$70.00</p>
-                            </div>
-                            <img src="assets/image/svg/black-star.svg" alt="">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-3  ">
-                    <div class="card3 mx_12 pb-2 bg_white">
-                        <div class="position-relative">
-                            <img src="assets/image/greay-shoes.png" alt="" class="w-100 ">
-                            <img src="assets/image/offer-img.png" alt="" class="postion-ab">
-                            <img src="assets/image/new.png" alt="" class="postion-ab1">
-
-                        </div>
-                        <div class="ps-2 pe-2 pt-3 pb-3">
-                            <div class="d-flex justify-content-between">
-                                <p class="fw_500 fs_fs_md ff_popins">Quickiins Mens Shoes</p>
-                                     <img src="assets/image/svg/el_shopping.svg" alt="">
+                                <img src="assets/image/svg/el_shopping.svg" alt="">
                             </div>
                             <div class="d-flex">
                                 <p class="fw_500 fs_fs_md ff_popins text_color">$90.00</p>
@@ -575,7 +468,7 @@
                         <div class="ps-2 pe-2 pt-3 pb-3">
                             <div class="d-flex justify-content-between">
                                 <p class="fw_500 fs_fs_md ff_popins">Quickiins Mens Shoes</p>
-                                 <img src="assets/image/svg/el_shopping.svg" alt="">
+                                <img src="assets/image/svg/el_shopping.svg" alt="">
                             </div>
                             <div class="d-flex">
                                 <p class="fw_500 fs_fs_md ff_popins text_color">$90.00</p>
@@ -596,7 +489,114 @@
                         <div class="ps-2 pe-2 pt-3 pb-3">
                             <div class="d-flex justify-content-between">
                                 <p class="fw_500 fs_fs_md ff_popins">Quickiins Mens Shoes</p>
-                                 <img src="assets/image/svg/el_shopping.svg" alt="">
+                                <img src="assets/image/svg/el_shopping.svg" alt="">
+                            </div>
+                            <div class="d-flex">
+                                <p class="fw_500 fs_fs_md ff_popins text_color">$90.00</p>
+                                <p class="fw_500 fs_fs_md ff_popins text_red ps-1">$70.00</p>
+                            </div>
+                            <img src="assets/image/svg/black-star.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row slick_slider d-none d-lg-block pt-4">
+                <div class="col-3  ">
+                    <div class="card3 mx_12 pb-2 bg_white">
+                        <div class="position-relative">
+                            <img src="assets/image/red-shoes1.png" alt="" class="w-100 ">
+                            <img src="assets/image/offer-img.png" alt="" class="postion-ab">
+                            <img src="assets/image/new.png" alt="" class="postion-ab1">
+
+                        </div>
+                        <div class="ps-2 pe-2 pt-3 pb-3">
+                            <div class="d-flex justify-content-between">
+                                <p class="fw_500 fs_fs_md ff_popins">Quickiins Mens Shoes</p>
+                                <img src="assets/image/svg/el_shopping.svg" alt="">
+                            </div>
+                            <div class="d-flex">
+                                <p class="fw_500 fs_fs_md ff_popins text_color">$90.00</p>
+                                <p class="fw_500 fs_fs_md ff_popins text_red ps-1">$70.00</p>
+                            </div>
+                            <img src="assets/image/svg/black-star.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3  ">
+                    <div class="card3 mx_12 pb-2 bg_white">
+                        <div class="position-relative">
+                            <img src="assets/image/greay-shoes.png" alt="" class="w-100 ">
+                            <img src="assets/image/offer-img.png" alt="" class="postion-ab">
+                            <img src="assets/image/new.png" alt="" class="postion-ab1">
+
+                        </div>
+                        <div class="ps-2 pe-2 pt-3 pb-3">
+                            <div class="d-flex justify-content-between">
+                                <p class="fw_500 fs_fs_md ff_popins">Quickiins Mens Shoes</p>
+                                <img src="assets/image/svg/el_shopping.svg" alt="">
+                            </div>
+                            <div class="d-flex">
+                                <p class="fw_500 fs_fs_md ff_popins text_color">$90.00</p>
+                                <p class="fw_500 fs_fs_md ff_popins text_red ps-1">$70.00</p>
+                            </div>
+                            <img src="assets/image/svg/black-star.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3  ">
+                    <div class="card3 mx_12 pb-2 bg_white">
+                        <div class="position-relative">
+                            <img src="assets/image/red-shoes1.png" alt="" class="w-100 ">
+                            <img src="assets/image/offer-img.png" alt="" class="postion-ab">
+                            <img src="assets/image/new.png" alt="" class="postion-ab1">
+
+                        </div>
+                        <div class="ps-2 pe-2 pt-3 pb-3">
+                            <div class="d-flex justify-content-between">
+                                <p class="fw_500 fs_fs_md ff_popins">Quickiins Mens Shoes</p>
+                                <img src="assets/image/svg/el_shopping.svg" alt="">
+                            </div>
+                            <div class="d-flex">
+                                <p class="fw_500 fs_fs_md ff_popins text_color">$90.00</p>
+                                <p class="fw_500 fs_fs_md ff_popins text_red ps-1">$70.00</p>
+                            </div>
+                            <img src="assets/image/svg/black-star.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3  ">
+                    <div class="card3 mx_12 pb-2 bg_white">
+                        <div class="position-relative">
+                            <img src="assets/image/greay-shoes.png" alt="" class="w-100 ">
+                            <img src="assets/image/offer-img.png" alt="" class="postion-ab">
+                            <img src="assets/image/new.png" alt="" class="postion-ab1">
+
+                        </div>
+                        <div class="ps-2 pe-2 pt-3 pb-3">
+                            <div class="d-flex justify-content-between">
+                                <p class="fw_500 fs_fs_md ff_popins">Quickiins Mens Shoes</p>
+                                <img src="assets/image/svg/el_shopping.svg" alt="">
+                            </div>
+                            <div class="d-flex">
+                                <p class="fw_500 fs_fs_md ff_popins text_color">$90.00</p>
+                                <p class="fw_500 fs_fs_md ff_popins text_red ps-1">$70.00</p>
+                            </div>
+                            <img src="assets/image/svg/black-star.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3  ">
+                    <div class="card3 curser_pointer mx_12 pb-2 bg_white">
+                        <div class="position-relative">
+                            <img src="assets/image/red-shoes1.png" alt="" class="w-100 ">
+                            <img src="assets/image/offer-img.png" alt="" class="postion-ab">
+                            <img src="assets/image/new.png" alt="" class="postion-ab1">
+
+                        </div>
+                        <div class="ps-2 pe-2 pt-3 pb-3">
+                            <div class="d-flex justify-content-between">
+                                <p class="fw_500 fs_fs_md ff_popins">Quickiins Mens Shoes</p>
+                                <img src="assets/image/svg/el_shopping.svg" alt="">
                             </div>
                             <div class="d-flex">
                                 <p class="fw_500 fs_fs_md ff_popins text_color">$90.00</p>
@@ -608,7 +608,7 @@
                 </div>
             </div>
 
-            <div class="d-flex align-items-center gap-1 gap-sm-3 justify-content-end mt-3" id="greay">
+            <div class="d-flex align-items-center gap-1 gap-sm-3 justify-content-end mt-3">
                 <div class="box_1 text_white ">
                     <p class="fs_xl greay fw_600 ff_popins mb-0 d-inline-block arro-btn-two">1</p>
                 </div>
@@ -644,7 +644,7 @@
                 <div class="col-12 col-xl-8  pt-4 pt-xl-0">
                     <div class="row">
                         <div class="col-6 col-md-3 pt-3 pt-md-0">
-                            <ul class="ms-0">
+                            <ul class="ps-0">
                                 <li class="text_white ff_poppin fs_md fw_600 curser_pointer">CUSTOM LINKS</li>
                                 <li class="pt-4"><a class="fs_md fw_400 ff_poppin color1 curser_pointer" href="">Lorem
                                         ipsum</a></li>
@@ -654,8 +654,8 @@
 
                         </div>
                         <div class="col-6 col-md-3 pt-3 pt-md-0">
-                            <ul class="ms-0">
-                                <li class="fs_md fw_600 ff_poppin text_white curser_pointer">PRODUCTS</li>
+                            <ul class="ps-0">
+                                <li class="fs_md fw_600 ff_poppin text_white curser_pointer ps-0">PRODUCTS</li>
                                 <li class="pt-4"><a class="fs_md fw_400 ff_poppin color1 curser_pointer" href="">Lorem
                                         ipsum</a></li>
                                 <li class="pt-4"><a class="fs_md fw_400 ff_poppin color1 curser_pointer" href="">Lorem
@@ -666,7 +666,7 @@
 
                         </div>
                         <div class="col-6 col-md-3  pt-3 pt-md-0">
-                            <ul class="ms-0">
+                            <ul class="ps-0">
                                 <li class="fs_md fw_600 ff_poppin text_white curser_pointer">OUR COMPANY</li>
                                 <li class="pt-4"><a class="fs_md fw_400 ff_poppin color1" href="">Lorem
                                         ipsum</a></li>
@@ -676,7 +676,7 @@
 
                         </div>
                         <div class="col-6 col-md-3 pt-3 pt-md-0">
-                            <ul class="ms-0">
+                            <ul class="ps-0">
                                 <li class=" ff_poppin fw_600 fs_md text_white curser_pointer">YOUR ACCOUNT</li>
                                 <li class="pt-4"><a class="fs_md fw_400 ff_poppin color1" href="">Lorem
                                         ipsum</a></li>
@@ -782,6 +782,25 @@
                 // settings: "unslick"
                 // instead of a settings object
             ]
+        });
+    </script>
+    <script>
+        let counter = 0;
+
+        const counterValue = document.getElementById('value');
+        const incrementBtn = document.getElementById('incre');
+        const decrementBtn = document.getElementById('decre');
+
+        // To increment the value of counter
+        incrementBtn.addEventListener('click', () => {
+            counter++;
+            counterValue.innerHTML = counter;
+        });
+
+        // To decrement the value of counter
+        decrementBtn.addEventListener('click', () => {
+            counter--;
+            counterValue.innerHTML = counter;
         });
     </script>
 

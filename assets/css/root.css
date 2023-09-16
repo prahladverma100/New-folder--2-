@@ -6,7 +6,7 @@
         --fs_md: 13px;
         --fs_lg: 14px;
         --fs_xl: 14px;
-        --fs_xxl: 23px;
+        --fs_xxl: 20px;
 
 
         /* color */
@@ -23,9 +23,9 @@
         --text_red: #FF0000;
         --brown: #454729;
         --text_black18: #181818;
-        --color1:#9E9E9E;
-        --foter_color:#0D0D0D;
-        --bg_footer:#171717;
+        --color1: #9E9E9E;
+        --foter_color: #0D0D0D;
+        --bg_footer: #171717;
 
         /* font-weight */
         --fw_100: 100;
@@ -113,13 +113,16 @@
     .text_red {
         color: var(--text_red);
     }
-    .color1{
+
+    .color1 {
         color: var(--color1);
     }
-    .foter_color{
+
+    .foter_color {
         background-color: var(--foter_color);
     }
-    .bg_footer{
+
+    .bg_footer {
         background-color: var(--bg_footer);
     }
 
