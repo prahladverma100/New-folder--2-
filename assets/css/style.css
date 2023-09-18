@@ -73,7 +73,7 @@
 
 }
 
-/* .clickbtn:after {
+ .clickbtn:after {
     content: "";
     position: absolute;
     width: 0;
@@ -83,18 +83,12 @@
     background-color: red;
 }
 
-.clickbtn:hover .text_black {
-    color: red;
 
-}
 
 .clickbtn:hover::after {
     width: 100%;
 }
 
-.clickbtn {
-    cursor: pointer !important;
-} */
 
 .box2:hover {
 
@@ -109,8 +103,6 @@
 .mt_top {
     margin-top: 100px;
 }
-
-
 .qty-card {
     width: 108px;
     height: 45px;
@@ -119,7 +111,6 @@
     border: 1px solid #E8E8E8;
     background: rgba(196, 196, 196, 0.00);
 }
-
 .size-card {
     width: 117px;
     height: 45px;
@@ -174,6 +165,24 @@
 .nav-pills .show>.nav-link {
     color: black !important;
     background-color: transparent !important;
+}
+.nav-link.active:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    left: 0;
+    bottom: 5px;
+    background-color: red;
+}
+
+.nav-link.active:hover {
+    color: red;
+
+}
+
+.nav-link.active:hover::after {
+    width: 100%;
 }
 
 .postion-ab {
