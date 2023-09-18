@@ -73,14 +73,15 @@
 
 }
 
- .clickbtn:after {
+.clickbtn:after {
     content: "";
     position: absolute;
     width: 0;
     height: 2px;
     left: 0;
     bottom: -5px;
-    background-color: red;
+    background-color: #B6B6B6;
+    transition: 600ms;
 }
 
 
@@ -103,6 +104,7 @@
 .mt_top {
     margin-top: 100px;
 }
+
 .qty-card {
     width: 108px;
     height: 45px;
@@ -111,6 +113,7 @@
     border: 1px solid #E8E8E8;
     background: rgba(196, 196, 196, 0.00);
 }
+
 .size-card {
     width: 117px;
     height: 45px;
@@ -166,6 +169,7 @@
     color: black !important;
     background-color: transparent !important;
 }
+
 .nav-link.active:after {
     content: "";
     position: absolute;
